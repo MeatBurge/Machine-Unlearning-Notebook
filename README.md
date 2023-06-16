@@ -1,7 +1,7 @@
 # Machine-Unlearning-Notebook
 A personal notebook for studying machine unlearning field
 
-## Shokri, R., Stronati, M., Song, C., & Shmatikov, V. (2017, May 1). Membership Inference Attacks Against Machine Learning Models. IEEE Xplore. [https://doi.org/10.1109/SP.2017.41]( https://doi.org/10.1109/SP.2017.41)
+#### Shokri, R., Stronati, M., Song, C., & Shmatikov, V. (2017, May 1). Membership Inference Attacks Against Machine Learning Models. IEEE Xplore. [https://doi.org/10.1109/SP.2017.41]( https://doi.org/10.1109/SP.2017.41)
 
 This article discusses the problem of machine learning models leaking information about their training data set and introduces the concept and methodology of membership inference attacks.
 
@@ -12,7 +12,6 @@ Data Sources/Components: Various activities and data of individual users, such a
 Membership Inference (Definition): It refers to determining whether a particular record was part of the model's training data by making black-box queries to the model, i.e., obtaining only the output of the model given a specific input. The problem is transformed into a classification problem, using an attack model to differentiate the behavior of the target model on training inputs versus unseen inputs.
 
 ![image-20230616110418198](./assets/image-20230616110418198.png)
-
 
 
 Approach: To build the attack model, the researchers invented a technique called shadow training. By creating multiple shadow models that mimic the behavior of the target model and training them on labeled inputs and outputs, the attack model can be trained.
@@ -45,7 +44,7 @@ Key Contribution: Their attack is a generic quantitative method for understandin
 ---
 
 
-## Cao, Y., Alexander Fangxiao Yu, Aday, A., Stahl, E., Merwine, J., & Yang, J. (2018). Efficient Repair of Polluted Machine Learning Systems via Causal Unlearning. https://doi.org/10.1145/3196494.3196517
+####  Cao, Y., Alexander Fangxiao Yu, Aday, A., Stahl, E., Merwine, J., & Yang, J. (2018). Efficient Repair of Polluted Machine Learning Systems via Causal Unlearning. https://doi.org/10.1145/3196494.3196517
 
 
 Efficient Repair of Contaminated Machine Learning through their Causal Unlearning System
@@ -66,16 +65,15 @@ Karma does not lead to overfitting or underfitting and performs well in SVM and 
 
 ---
 
-# Related topics
-## Du, M., Chen, Z., Liu, C., Oak, R., & Song, D. (2019). Lifelong Anomaly Detection Through Unlearning. https://doi.org/10.1145/3319535.3363226
+#####  Related topics
+*Du, M., Chen, Z., Liu, C., Oak, R., & Song, D. (2019). Lifelong Anomaly Detection Through Unlearning. https://doi.org/10.1145/3319535.3363226*
 
-
-## Kim, B., Kim, H., Kim, K., Kim, S., & Kim, J. (2019). Learning Not to Learn: Training Deep Neural Networks With Biased Data. Openaccess.thecvf.com. https://openaccess.thecvf.com/content_CVPR_2019/html/Kim_Learning_Not_to_Learn_Training_Deep_Neural_Networks_With_Biased_CVPR_2019_paper.html
+*Kim, B., Kim, H., Kim, K., Kim, S., & Kim, J. (2019). Learning Not to Learn: Training Deep Neural Networks With Biased Data. Openaccess.thecvf.com. https://openaccess.thecvf.com/content_CVPR_2019/html/Kim_Learning_Not_to_Learn_Training_Deep_Neural_Networks_With_Biased_CVPR_2019_paper.html*
 
 ---
 
 
-## Schelter, S. (n.d.). “Amnesia” -A Selection of Machine Learning Models That Can Forget User Data Very Fast. Retrieved June 15, 2023, from https://www.cidrdb.org/cidr2020/papers/p32-schelter-cidr20.pdf
+####  Schelter, S. (n.d.). “Amnesia” -A Selection of Machine Learning Models That Can Forget User Data Very Fast. Retrieved June 15, 2023, from https://www.cidrdb.org/cidr2020/papers/p32-schelter-cidr20.pdf
 
 
 Motivation: The motivation is not only to delete user data from the database but also from the machine learning model. However, this requires inefficient and expensive retraining of the affected machine learning model, where the training infrastructure needs to access the original training data again and redeploy the retrained model.
